@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Название мероприятия -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Название мероприятия"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Дата мероприятия -->
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дата"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <!-- Время мероприятия -->
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Время"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <!-- Местоположение мероприятия -->
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Местоположение"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <!-- Спикер мероприятия -->
+    <TextView
+        android:id="@+id/tvSpeaker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Спикер"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+</LinearLayout>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp">
+
+    <!-- Кнопка "Регистрация участника" -->
+    <Button
+        android:id="@+id/btnRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/button_background"
+        android:text="Регистрация участника"
+        android:textColor="@color/button_text_color"
+        android:textSize="16sp"
+        android:onClick="openRegistration" />
+
+    <!-- Кнопка "Расписание" -->
+    <Button
+        android:id="@+id/btnSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/button_background"
+        android:text="Расписание"
+        android:textColor="@color/button_text_color"
+        android:textSize="16sp"
+        android:onClick="openSchedule" />
+
+    <!-- Кнопка "Управление финансами" -->
+    <Button
+        android:id="@+id/btnPayments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/button_background"
+        android:text="Управление финансами"
+        android:textColor="@color/button_text_color"
+        android:textSize="16sp"
+        android:onClick="openPayments" />
+
+    <!-- Кнопка "Список участников" -->
+    <Button
+        android:id="@+id/btnParticipantsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/button_background"
+        android:text="Список участников"
+        android:textColor="@color/button_text_color"
+        android:textSize="16sp"
+        android:onClick="openParticipantsList" />
+</LinearLayout>
